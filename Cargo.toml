@@ -1,0 +1,16 @@
+[package]
+name = "abug"
+version = "0.1.0"
+authors = ["Steven Stewart-Gallus <sstewartgallus00@mylangara.bc.ca>"]
+repository = "https://sstewartgallus.com/git?p=uevents-rs.git;a=summary"
+license = "Apache-2.0"
+categories = ["concurrency", "data-structures"]
+
+[features]
+nightly = []
+
+[dev-dependencies]
+parking_lot = "0.4"
+
+[profile.bench]
+debug = true
